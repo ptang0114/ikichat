@@ -1,0 +1,4 @@
+botbuilder-integration-aiohttp>=4.13.0
+recognizers-text>=1.0.2a1
+azure-ai-textanalytics==5.0.0
+azure==4.0.0
