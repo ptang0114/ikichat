@@ -1,8 +1,8 @@
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.textanalytics import TextAnalyticsClient
 
-endpoint = 'https://iki-sentiment.cognitiveservices.azure.com/'
-credential = AzureKeyCredential("3133eaeecd32496284c47454e9b3fd1e")
+endpoint = 'https://sentiment-ner-iki.cognitiveservices.azure.com/'
+credential = AzureKeyCredential("cc13e69f62754f878b3e26138383a411")
 text_analytics_client = TextAnalyticsClient(endpoint=endpoint, credential=credential)
 
 def sentiment(sentence):
